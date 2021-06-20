@@ -1,0 +1,18 @@
+body {
+	background-color: red;
+}
+header {
+	display: flex;
+	color: aliceblue;
+	border: 10em;
+	border-radius: 2em;
+	border-color: aliceblue;
+	justify-content: space-between;
+}
+.Menu {
+	display: flex;
+}
+.p {
+	margin: 1px;
+	height: 1px;
+}
