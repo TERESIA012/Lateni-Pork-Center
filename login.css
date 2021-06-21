@@ -1,0 +1,60 @@
+#start2{
+    background-color: white;
+    width: 350px;
+    height: 520px;
+    border-radius: 5px;
+    margin-top: 80px;
+    overflow: hidden;
+    color: red;
+    font-weight: bold;
+}
+#header h2{
+    text-align: center;
+    background-color:red;
+    padding: 30px;
+    margin: 0;
+    color: white;
+}
+.control{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+body{
+    background-image: url("./Assets/pork\ live.jpg");
+    display: flex;
+    justify-content: center;
+    font-family: 'Zilla Slab', serif;
+    
+}
+input{
+    padding: 10px;
+    border: 2px solid rgb(231, 225, 225);
+    border-radius: 5px;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    
+}
+#foot{
+    text-align: center;
+    font-weight: bold;
+}
+button{
+    background-color: red;
+    padding: 20px;
+    border-radius: 5px;
+    width: 90%;
+    font-weight: bold;
+    font-size: 25px;
+    border: 1px;
+    color: white;
+    margin-left: 18px;
+    
+}
+small{
+    visibility: hidden;
+    color: tomato;
+}
