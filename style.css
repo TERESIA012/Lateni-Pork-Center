@@ -4,8 +4,8 @@ body {
 header {
 	background-image: url(./Assets/Pork\ Hanging.webp);
 	display: flex;
-	color: rgb(238, 23, 23);
-	border: 1em double;
+	color: #ee1717;
+	border:2px double;
 	border-radius: 2em;
 	border-color: aliceblue;
 	justify-content: space-between;
