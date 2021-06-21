@@ -7,3 +7,23 @@ h1 {
 #img1 {
     text-align: center;
 }
+h2 {
+    font-size: xx-large;
+    color: solid black;
+}
+#hm {
+    display: flex;
+    justify-content: space-between;
+}
+#vv {
+    display: flex;
+    
+}
+#values {
+    margin-left: 280px;
+}
+#container {
+    background-color: #8b0000;
+    color: white;
+    
+}
