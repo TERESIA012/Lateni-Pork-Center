@@ -9,6 +9,7 @@ header {
 	border-radius: 2em;
 	border-color: aliceblue;
 	justify-content: space-between;
+	height: 20em;
 }
 .Menu {
 	display: flex;
@@ -21,10 +22,15 @@ header h1 {
 	display: flex;
 	margin-right: 3em;
 }
+header h2 {
+	color: blue;
+	margin: 30px;
+}
 header h3 {
-	color: skyblue;
-	margin: 4em;
+	color: rgb(30, 26, 231);
 	font-size: x-large;
+	margin-bottom: 0px;
+	padding-left: 10em;
 }
 header img {
 	height: 9em;
@@ -33,4 +39,50 @@ header img {
 	display: flex;
 	justify-content: space-between;
 	flex-direction: row;
+}
+.landing .video {
+	margin-left: 8em;
+}
+.landing .lpc {
+	color: aliceblue;
+	margin-right: 20em;
+	border: 5px dotted;
+	border-radius: 2em;
+	border-color: rgb(36, 6, 168);
+	box-shadow: 5em;
+	background-color: rgba(207, 207, 65, 0.747);
+}
+.landing .lpc h2 {
+	color: rgb(19, 19, 95);
+	font-weight: 1000;
+}
+.landing .lpc p {
+	font-weight: 600;
+	margin-top: 3em;
+}
+.landing .lpc li {
+	font-style: italic;
+	font-weight: 650;
+	margin-top: 3em;
+}
+footer .social {
+	text-align: center;
+        background-color: rgb(228, 162, 81);
+	height: 5em;
+	color: rgb(19, 19, 189);
+}
+.handles {
+	display: flex;
+	justify-content: center;
+	justify-content:  space-between;
+	margin-right: 30em;
+	margin-left: 30em;
+}
+footer .handles img {
+	display: flex;
+	height: 3em;
+	width: 3em;
+}
+footer .handles h3 {
+	text-align: center;
 }
