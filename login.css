@@ -3,7 +3,8 @@
     width: 350px;
     height: 520px;
     border-radius: 5px;
-    margin-top: 80px;
+    margin-top: 0px;
+    margin-left: 600px;
     overflow: hidden;
     color: red;
     font-weight: bold;
@@ -22,8 +23,7 @@
 }
 body{
     background-image: url("./Assets/pork\ live.jpg");
-    display: flex;
-    justify-content: center;
+
     font-family: 'Zilla Slab', serif;
     
 }
@@ -41,6 +41,7 @@ input{
 #foot{
     text-align: center;
     font-weight: bold;
+    margin-top: 40px;
 }
 button{
     background-color: red;
@@ -56,5 +57,31 @@ button{
 }
 small{
     visibility: hidden;
+    
     color: tomato;
+}
+.start{
+    display: flex;
+    margin-right: 1000px;
+    background-color: red;
+    width: 300px;
+    height: 120px;
+}
+#mine div{
+    width: 50px;
+    height: 5px;
+    background-color:white;
+    margin: 10px 0;
+    display: block;
+}
+#mine{
+    margin-top: 28px;
+    padding: 5px;
+}
+.meat{
+    display: flex;
+    font-weight: bold;
+    font-size: x-large;
+    color: white;
+    
 }
