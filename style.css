@@ -29,3 +29,8 @@ header h3 {
 header img {
 	height: 9em;
 }
+.landing {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+}
