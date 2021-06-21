@@ -1,0 +1,114 @@
+
+body{
+    background-image: url("./Assets/pork\ live.jpg") ;
+    font-family: 'Zilla Slab', serif;
+   
+}
+
+
+
+#start{
+    background-color: white;
+    border-radius: 5px;
+    width: 400px;
+    height: 600px;
+    margin-top: 0px;
+    overflow: hidden;
+    color: red;
+    font-weight: bold;
+    margin-left: 600px;
+
+}
+form{
+    margin-top: 30px;
+}
+
+#header h2{
+    text-align: center;
+    background-color:red;
+    padding: 30px;
+    margin: 0;
+    color: white;
+
+}
+#foot{
+    text-align: center;
+    font-weight: bold;
+}
+.control{
+    display: flex;
+    flex-direction: column;
+
+}
+small{
+    visibility: hidden;
+    color: tomato;
+}
+button{
+    background-color: red;
+    padding: 20px;
+    border-radius: 5px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 25px;
+    border: 1px;
+    color: white;
+    
+}
+.yes a{
+    text-decoration: none;
+    color: white;
+}
+input{
+    padding: 10px;
+    border: 2px solid rgb(231, 225, 225);
+    border-radius: 5px;
+}
+#line{
+    width: 80%;
+    margin-left: 40px;
+}
+.control.success input{
+    border-color: rgb(17, 212, 17);
+}
+.control.error input{
+    border-color: tomato;
+}
+footer{
+    padding: 20px;
+    text-align: center;
+    
+}
+.box {
+display: flex;
+justify-content: center;
+margin-top: 10px;
+
+}
+#mine div{
+    width: 50px;
+    height: 5px;
+    background-color:white;
+    margin: 10px 0;
+    display: block;
+}
+#mine{
+    margin-top: 28px;
+    padding: 5px;
+}
+.start{
+    display: flex;
+    margin-right: 1000px;
+    background-color: red;
+    width: 300px;
+    height: 120px;
+}
+.meat{
+    display: flex;
+    font-weight: bold;
+    font-size: x-large;
+    color: white;
+    
+}
+
+
