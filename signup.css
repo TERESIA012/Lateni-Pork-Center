@@ -110,5 +110,10 @@ margin-top: 10px;
     color: white;
     
 }
+ footer a{
+    text-decoration: none;
+    color: #1AA3FF;
+    font-size: large;
+}
 
 
