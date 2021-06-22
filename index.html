@@ -19,11 +19,28 @@
 			</div>
 			<div id="Menu">
 			        <a href="#">
-					<h1>MENU</h1>
+					<form action="/action_page.php">
+                                        <select id="menu" name="menu">
+						<option value="menu">MENU</option>
+                                                <option value="about">About</option>
+                                                <option value="Shop">Shop</option>
+                                                <option value="status">Status</option>
+                                                <option value="Contacts">Contacts</option>
+                                        </select>
+                                        </form>
 				</a>
 			</div>
                         <div class="logo">
 				<img src="./Assets/LPC.jpg">
+			</div>
+			<div id="Date">
+				<a href="#">
+					<button type="button"
+                                        onclick="document.getElementById('Date').innerHTML = Date()">
+                                        Date and Time.</button>
+
+                                         <h2 id="Date"></h2>
+				</a>
 			</div>
 		</div>        
 		<div class="status">
@@ -80,8 +97,22 @@
 			</ul>
 			</div>
 			<div class="butcher">
-				<img src="./Assets/Butcher Smilling.webp" height="520" width="500">
+				<img src="./Assets/Smiling Butcher2.jpg" height="520" width="500">
 			</div>
+		</div>
+	</div>
+	<div class="comments">
+		<div class="comment1">
+			<p>“You always work so passionately to make sure our customers get the best experience <br>and insight and they really are reaping the rewards from your efforts! I love <br>working collaboratively with you, you're always so authentic and enthusiastic. So <br>glad you've had some great feedback from customers too as it's so deserved.”</p>
+			<h3>Gregg Fuchs</h3>
+		</div>
+		<div class="comment2">
+			<p>“You’ve done an incredible job taking on new responsibilities and stepping up to your <br>new role. Leading and shaping a brand new team is a real challenge and you’ve taken <br>everything in your stride. I’m really looking forward to continuing to develop the <br>team alongside you and see how much further you succeed.”</p>
+                        <h3>Annita Njeri</h3>
+		</div>
+                <div class="comment3">
+			<p>“The amount of good causes you promote and the resources you share with everyone is <br>nothing short of inspirational. Your commitment to helping us all grow shows how <br>caring and thoughtful you are, which shines through in everything you do!”</p>
+			<h3>Joash Watillah</h3>
 		</div>
 	</div>
 </body>
