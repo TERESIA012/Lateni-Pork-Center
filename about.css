@@ -1,5 +1,5 @@
 h1 {
-    background-color: red;
+    background-color:#8b0000;
     color: white;
     font-size: xx-large;
     font-style: oblique;
@@ -35,7 +35,95 @@ h2 {
     font-family: 'Zilla Slab', serif;
     background-color: #8b0000;
 
+}
+#team {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Zilla Slab', serif;
+
+}
+#terryimg  img {
+padding-top: 10%;
+border-radius: 70%;
+
+
+}
+#nickimg img {
+    padding-top: 10%;
+    border-radius: 70%;
     
     
 }
+#langaimg img {
+    padding-top: 10%;
+    border-radius: 70%;
+    
+    
+}
+#nickoimg img {
+    padding-top: 10%;
+    border-radius: 70%;
+    
+    
+}
+#me {
+    
+    color: white;
+}
+#him {
+    
+    color: white;
+}
+#his {
+    
+    color: white;
+}
+/* #her {
+    background-color: #f0542b;
+    color: white;
+} */
 
+
+
+/* new styling */
+/* terry div */
+#terry {
+    
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    min-width: 300px;
+    max-height:400px;
+    box-shadow: 0 0px 0px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
+
+}
+#terry>div{
+    
+    border-radius: 4px;
+}
+#terryimg{
+    background-color:honeydew;
+    border:grey ;
+    
+    transition: 0.3s;
+    
+}
+#her{
+    margin-top:  -20px;
+    padding: 20px;
+    background-color:honeydew;
+    color:black;
+    font-family: 'Zilla Slab', serif;
+}
+#terry:hover {
+    box-shadow: 0 8px 16px 5px rgba(0,0,0,0.2);
+}
+/*
+* {
+    border: 1px dashed lime;
+}
+/* end */
+
+
+/* end of styling */
