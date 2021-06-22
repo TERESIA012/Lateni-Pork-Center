@@ -150,9 +150,24 @@ width: 20px;
 
 }
 #footerimg {
-    opacity: 0.5;
+background-color: honeydew;
+height: 280px;
+
+
 
 }
+#logo {
+    display: flex;
+    align-items: center;
+    padding-top: 12%;
+    justify-content: space-evenly;
+    font-family: 'Zilla Slab', serif;
+
+}
+h5 {
+    font-family: 'Zilla Slab', serif;
+}
+
 
 
 
