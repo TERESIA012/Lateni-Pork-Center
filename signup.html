@@ -17,63 +17,56 @@
         <div></div>
         <div></div>
         <div></div>
+
         </div>
         <div class="meat">
 
         <h1>MENU</h1>
         <img src="./Assets/LPC.jpg" height="120px">
+        
         </div>
 
        
     </div>
     
 <body>
-    <script src="./java.js"></script>
- 
-    <div id="start">
-       
-        <div id="header">
+    <div class="container">
+        <div class="header">
             <h2>Create Account</h2>
-            <div id=line>
-            <form class="form" id="form">
-
-                <div class="control">
-                    <label>Username</label>
-                    <input type="text" id="username">
-                    <small>Error message</small>
-                    </div>
-    
-                    <div class="control">
-                        <label>Email</label>
-                        <input type="email"  id="email">
-                        <small>Error message</small>
-                        </div>
-    
-                             <div class="control">
-                            <label>Password</label>
-                            <input type="text" id="password2">
-                            <small>Error message</small>  
-                            </div>
-
-                            <div class="control">
-                                <label>Comfirm password</label>
-                                <input type="text" id="password two">
-                                <small>Error message</small>  
-                                </div>
-                            
-                                <button class="yes">  <a href="login.html"> CREATE ACCOUNT</a></button>
-                           <footer>
-                            <p> Already have an account?  <a href="login.html">  Login</a></p>
-                            </footer>
-                        </div>
-                      
-
-                </div>
-    
+        </div>
+        <form class="form">
+            <div class="form-control ">
+                  <label for="username" name="username">Username</label>
+                  <input id="txtUserName" type="text" name="username" /> 
+                  <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="email" name="email">Email</label>
+                <input id="txtEmail" type="email" name="email"/>
+                <small>Error message</small>
+          </div>
+          <div class="form-control">
+            <label for="pwd" name="pwd">Password</label>
+            <input id="txtPwd" type="password" name="pwd"/>
+            <small>Error message</small>
+      </div>
+      <div class="form-control">
+        <label for="conpwd" name="conpwd">Confirm password</label>
+        <input id="txtConPwd" type="password" name="conpwd"/>
+        <small>Error message</small>
+  </div>
+  <div class="form-conrol">
+    <button type="submit"> CREATE ACCOUNT</button>
+</div>
+        </form>
+        <div id="ready">
+        <p>Already have an account? <a href="login.html"> Login </a></p>
         </div>
 
-
-    </body>
+    </div>
+    <script src="signup.js"></script>
+        
+ </body>
  
 
 </html>

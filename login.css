@@ -1,12 +1,11 @@
 #start2{
     background-color: white;
     width: 350px;
-    height: 520px;
+    height: 500px;
     border-radius: 5px;
     margin-top: 0px;
     margin-left: 600px;
     overflow: hidden;
-    color: red;
     font-weight: bold;
 }
 #header h2{
@@ -16,11 +15,14 @@
     margin: 0;
     color: white;
 }
-.control{
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-}
+
+.form-control{
+    padding: 25px;
+    margin-left: 10px;
+    }
+
+
+
 body{
     background-image: url("./Assets/pork\ live.jpg");
 
@@ -28,28 +30,23 @@ body{
     
 }
 input{
+    display: block;
+     width: 90%;
     padding: 10px;
-    border: 2px solid rgb(231, 225, 225);
-    border-radius: 5px;
+    border-radius: 4px;
+    border: 2px solid #d8d1d1;
+
 }
-.box {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-    
-}
-#foot{
-    text-align: center;
-    font-weight: bold;
-    margin-top: 40px;
-}
+
+
+
 button{
     background-color: red;
     padding: 20px;
     border-radius: 5px;
     width: 90%;
     font-weight: bold;
-    font-size: 25px;
+    font-size: large;
     border: 1px;
     color: white;
     margin-left: 18px;
@@ -89,4 +86,16 @@ footer a{
     text-decoration: none;
     color: #1AA3FF;
     font-size: large;
+    
+}
+footer{
+    text-align: center;
+    margin-top: 30px;
+}
+.form-control.success input{
+    border: 2px solid #02F77C;
+    
+}
+.form-control.error input{
+    border: 2px solid red;
 }

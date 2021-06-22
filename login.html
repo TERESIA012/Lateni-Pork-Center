@@ -16,11 +16,13 @@
     <div></div>
     <div></div>
     <div></div>
+
     </div>
     <div class="meat">
 
     <h1>MENU</h1>
     <img src="./Assets/LPC.jpg" height="120px">
+    
     </div>
 
    
@@ -33,36 +35,31 @@
             </div>
 
           
-            <div id=line>
-            <form class="form" id="form">
+            
+            <form class="form">
 
-                <label class="box">Admin 
-                    <input type="checkbox" >
-                    <span class="checkmark"></span>
-                  </label>
-                </div>
-    
-    <div class="control">
-        <label>Username</label>
-        <input type="text" id="username">
-        <small>Error message</small>
+                <div class="form-control ">
+                    <label for="username" name="username">Username</label>
+                    <input id="txtUserName" type="text" name="username" /> 
+                    <small>Error message</small>
+              </div>
+              <div class="form-control">
+                <label for="pwd" name="pwd">Password</label>
+                <input id="txtPwd" type="password" name="pwd"/>
+                <small>Error message</small>
+          </div>
+          <div class="form-conrol">
+            <button type="submit">SIGN IN</button>
+        </div>
+        </form>
+        <footer>
+        Don't have an account? <a href="signup.html"> Create Account</a>
+        </footer>
         </div>
 
+                <script src="login.js"></script>
 
-                 <div class="control">
-                <label>Password</label>
-                <input type="text" id="password2">
-                <small>Error message</small>  
-            
-                </div> 
-
-               
-                  <button>CONTINUE</button> 
-                  <footer id="foot">
                 
-                  <p>Don't have an account? Create <a href="signup.html">account</a></p>
-                  </footer>
-                </div>
 
 </body>
 </html>
