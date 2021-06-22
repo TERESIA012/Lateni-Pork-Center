@@ -14,16 +14,28 @@ h2 {
 #hm {
     display: flex;
     justify-content: space-between;
+    
 }
 #vv {
     display: flex;
     
+    
+    
+    
 }
 #values {
     margin-left: 280px;
+    
+    
+
 }
-#container {
+#txts {
+    
+    color:white;
+    font-family: 'Zilla Slab', serif;
     background-color: #8b0000;
-    color: white;
+
+    
     
 }
+
