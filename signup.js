@@ -46,7 +46,8 @@ if(pwd.value.trim()===""){
  else
    onSuccess(conPwd); 
  }
-
+ 
+//condition in order to redirect
 if(userName,email,pwd,conPwd.value.trim() != '' ) {
     window.location.href = "login.html";
  }
