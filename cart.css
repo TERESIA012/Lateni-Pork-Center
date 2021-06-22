@@ -2,9 +2,9 @@
     margin: 0;
 }
 
-div{
+/* div{
     border: 1px dashed;
-}
+} */
 
 body{
     width:100%;
@@ -139,4 +139,42 @@ body{
     text-align: center;
     color: #2e1311;
 }
+footer{
+    background-image: url(./Assets/footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 100%;
+    background-color: gray;
+    color: #fff;
+    font-size: 1.0em;
+}
+.text{
+    position: absolute;
+  padding:10px;
+  margin-top: 50px;
+  justify-content: center;
+  text-align: center;
+  margin-left: 40%;
 
+}
+.icon{
+    position: absolute;
+    padding:10px;
+    margin-top: 110px;
+    justify-content: center;
+    /* text-align: center; */
+    margin-left: 43%;
+    font-size: 0.7em;
+
+}
+.copy{
+    position: absolute;
+    padding:10px;
+    margin-top: 160px;
+    /* justify-content: center; */
+    /* text-align: center; */
+    margin-left: 41%;
+    font-size: 0.7em;
+}
