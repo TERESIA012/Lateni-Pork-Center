@@ -111,8 +111,6 @@ border-radius: 70%;
     background-color:honeydew;
     border:grey ;
     
-    transition: 0.3s;
-    
 }
 #her{
     margin-top:  -20px;
@@ -160,15 +158,10 @@ justify-content: space-around;
 
 
 }
-#logo {
-    display: flex;
-    align-items: center;
-    justify-content:flex-start;
-    font-family: 'Zilla Slab', serif;
-    padding-top: 5%;
 
-}
-h5 {
+
+
+h4 {
     font-family: 'Zilla Slab', serif;
 }
 button{
@@ -194,33 +187,58 @@ button:active {
 textarea {
     border-radius: 10px;
 }
-#location {
-    padding-top: 2% ;
+
     
-}
-#copyright {
-    font-size: xx-large;
-    color: white;
-    font-weight: bolder;
-    padding-top: 05%;
+
     
-}
+
 * {
     box-sizing: border-box;
     
 }
-#footer{
-    /* margin-top: -300px; */
+footer {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    background-color: honeydew; 
+    font-size: 20px;
+    font-family: 'Zilla Slab', serif;
 }
- 
 
-/*
-@media only screen  and (min-width:480px){
-div {
-      width: 200px;
-      padding: 0px;
-  }  
+
+footer .social {
+    text-align: center;
+    display: inline;
+    color: rgb(19, 19, 189);
 }
+.social #contacts {
+    color: rgba(5, 0, 0, 0.815);
+    font-weight: 1000;
+}
+.handles {
+    text-align: center;
+    height: 25em;
+    display: inline;
+    justify-content: space-between;
+}
+footer .handles img {
+    height: 3em;
+    width: 3em;
+}
+/* .copyright {
+    padding-top: 15%;
+} */
+.copyright {
+    text-align: center;
+    color: aliceblue;
+    background-color: #E71010;
+    padding-left: 5%;
+}
+
+
+
+/*@media only screen  and (min-width: 600px) {}
+
 
 
 
