@@ -38,6 +38,7 @@ header h3 {
 header img {
 	height: 9em;
 }
+/* ====================================================================== */
 .about {
 	display: flex;
 	margin-left: 45px;
@@ -61,8 +62,8 @@ header img {
 }
 .about ul li {
 	font-style: italic;
-	font-weight: 650;
-	margin-top: 3em;
+	font-weight: 50;
+	margin-top: 1em;
 	font-size: 2em;
 }
 .about a {
@@ -72,6 +73,7 @@ header img {
 	box-shadow: 0px 2px 9px grey;
 	margin-bottom: 5px;
 }
+/* =================================================================== */
 .landing {
 	display: inline;
 	justify-content: space-between;
@@ -85,10 +87,10 @@ header img {
         margin-left: 16em;
 	color: rgb(0, 7, 14);
 	margin-right: 20em;
-	border: 5px solid;
+	border: 3px solid;
 	border-radius: 2em;
 	border-color: rgb(36, 6, 168);
-	box-shadow: 5em blue;
+	box-shadow: 8em blue;
 	background-color: rgba(236, 236, 227, 0.747);
 }
 .landing .lpc h2 {
@@ -99,7 +101,7 @@ header img {
 .landing .lpc p {
 	font-weight: 600;
 	margin-top: 1em;
-	font-size: 2em;
+	font-size: 20px;
 }
 .landing .lpc li {
 	font-style: italic;
@@ -109,30 +111,64 @@ header img {
 }
 .landing img {
 	margin-right: 1em;
+	height: fit-content;
+}
+.customers {
+	color: rgb(253, 251, 251);
+	background-color: blueviolet;
+	text-align: center;
+	font-style: italic;
+	font-size: 2em;
 }
 .comments {
 	background-color: rgb(236, 236, 227);
 	display: flex;
 	justify-content: space-evenly;
+	font-size: 1em;
+}
+.comments h3 {
+        font-style: italic;
+	font-weight: 1000;
+	text-align: center;
+}
+.comments .comment1 {
+	box-shadow: 0px 2px 9px grey;
+	border: 2px solid;
+	border-color: gray;
+}
+.comments .comment3 {
+	box-shadow: 0px 2px 9px rgba(10, 158, 4, 0.863);
+	border: 2px solid;
+	border-color: gray;
+}
+/* ===================================================== */
+footer {
+	display: flex;
+	justify-content: space-evenly;
 }
 footer .social {
 	text-align: center;
+        display: inline;
         background-color: rgb(228, 162, 81);
-	height: 5em;
 	color: rgb(19, 19, 189);
 }
+.social #contacts {
+	color: rgba(5, 0, 0, 0.815);
+	font-weight: 1000;
+}
 .handles {
-	display: flex;
-	justify-content: center;
-	justify-content:  space-between;
-	margin-right: 30em;
-	margin-left: 30em;
+	text-align: center;
+	background-color: rgb(228, 162, 81);
+	height: 25em;
+	display: inline;
+	justify-content: space-between;
 }
 footer .handles img {
-	display: flex;
 	height: 3em;
 	width: 3em;
 }
-footer .handles h3 {
+.copyright {
 	text-align: center;
+	color: aliceblue;
+	background-color: blueviolet;
 }
