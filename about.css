@@ -52,7 +52,7 @@ border-radius: 70%;
 
 
 }
-#nickimg img {
+/*#nickimg img {
     padding-top: 10%;
     border-radius: 70%;
     
@@ -64,7 +64,8 @@ border-radius: 70%;
     
     
 }
-#nickoimg img {
+*/
+/*#nickoimg img {
     padding-top: 10%;
     border-radius: 70%;
     
@@ -81,7 +82,9 @@ border-radius: 70%;
 #his {
     
     color: white;
-}
+} 
+    */
+
 /* #her {
     background-color: #f0542b;
     color: white;
@@ -201,8 +204,9 @@ footer {
     /* flex-direction: column; */
     justify-content: space-evenly;
     background-color: honeydew; 
-    font-size: 20px;
     font-family: 'Zilla Slab', serif;
+    
+    
 }
 
 
@@ -210,29 +214,33 @@ footer .social {
     text-align: center;
     display: inline;
     color: rgb(19, 19, 189);
+    font-size: 18px;
+    
 }
 .social #contacts {
     color: rgba(5, 0, 0, 0.815);
-    font-weight: 1000;
+    
 }
 .handles {
     text-align: center;
-    height: 25em;
+    height: 18px;
     display: inline;
     justify-content: space-between;
-}
+} 
+
 footer .handles img {
-    height: 3em;
-    width: 3em;
+    
 }
 /* .copyright {
     padding-top: 15%;
 } */
 .copyright {
+
     text-align: center;
     color: aliceblue;
     background-color: #E71010;
-    padding-left: 5%;
+    
+    
 }
 
 
