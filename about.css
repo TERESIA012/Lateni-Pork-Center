@@ -126,7 +126,6 @@ border-radius: 70%;
     background-color: #e31c25;
     height: 300px;
     margin-top: 40px;
-    padding-top: 50px;
     color: white;
 
 }
@@ -134,6 +133,7 @@ border-radius: 70%;
     display: flex;
     justify-content: center;
     font-family: 'Zilla Slab', serif;
+    
 }
 
 h4 {
@@ -143,12 +143,9 @@ h4 {
 }
 input {
     height: 50px;
+    
 }
-label {
-height: 20px;
-width: 20px;
 
-}
 #footerimg {
 background-color: honeydew;
 height: 280px;
@@ -167,7 +164,22 @@ height: 280px;
 h5 {
     font-family: 'Zilla Slab', serif;
 }
-
+.btn{
+    display: flex;
+    padding: 20px;
+    background-color: honeydew;
+    color: black;
+    border-radius: 10px;
+    height: 5px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-left: 30px;
+    font-size: 20px;
+}
+textarea {
+    border-radius: 10px;
+}
 
 
 
