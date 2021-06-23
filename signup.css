@@ -98,6 +98,10 @@ button{
     color: #1AA3FF;
     font-size: large;
 }
+button:active{
+    transform: scale(0.90);
+}
+
 
 /**{
     border: 1px dashed lime;

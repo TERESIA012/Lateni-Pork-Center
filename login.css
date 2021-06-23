@@ -51,7 +51,13 @@ button{
     color: white;
     margin-left: 18px;
     
+
 }
+
+button:active{
+    transform: scale(0.90);
+}
+
 small{
     visibility: hidden;
     
