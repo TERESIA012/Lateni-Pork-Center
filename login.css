@@ -101,3 +101,47 @@ footer{
 .form-control.error input{
     border: 2px solid red;
 }
+.meat img{
+    width: 25%;
+}
+
+@media only screen and (max-width:1000px) {
+    #start2{
+        margin-left: 0px;
+        width: 250px;
+        font-size: 12px;
+        height: 300px;
+        margin-left: 30px;
+
+    }
+    .meat{
+        margin-left: 0px;
+        width: 250px;
+        font-size: 20px;
+        margin-left: 30px;
+    }
+    #second{
+        margin-left: 0px;
+    }
+    input{
+        padding: 0px;
+    }
+    button{
+        padding: 0px;
+    }
+    .form-control{
+        padding: 10px;
+    }
+    #start{
+        font-size: 12px;
+        padding: 0px;
+    }
+    .meat img{
+        width: 23%;
+    }
+    
+
+
+}  
+
+

@@ -23,7 +23,6 @@ if(pwd.value.trim()===""){
 
 if(userName.value.trim() && pwd.value.trim() != '' ) {
   window.location.href = "/";
-  alert("Login successful") 
 }
 }
    

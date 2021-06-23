@@ -98,8 +98,36 @@ button{
 button:active{
     transform: scale(0.90);
 }
+    .meat img{
+        width: 25%;
+    }
+    #second{
+        margin-left: 45px
+    }
+        
+    
+
+@media only screen and (max-width:1000px) {
+    .container{
+        margin-left: 20px;
+        width: 300px;
+        font-size: 12px;
+
+    }
+    .meat{
+        margin-left: 0px;
+        width: 300px;
+    }
+    #second{
+        margin-left: 0px;
+    }
+    input{
+        padding: 0px;
+    }
+    button{
+        padding: 0px;
+    }
+    
 
 
-/**{
-    border: 1px dashed lime;
-}
+}  
