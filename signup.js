@@ -16,7 +16,7 @@ if(userName.value.trim()===""){
 
 //check email is empty
 if(email.value.trim()===""){
-    onError(email, "Email cannot be empty")
+    onError(email, "Email cannot be empty");
 }else{
     //check email is valid
     if(!isValidEmail(email.value.trim())){
@@ -43,13 +43,16 @@ if(pwd.value.trim()===""){
             onError(conPwd,"Passwords do not match");
  
  }
+ 
  else
    onSuccess(conPwd); 
  }
+
  
 //condition in order to redirect
 if(userName,email,pwd,conPwd.value.trim() != ''  &&  pwd.value.trim()===conPwd.value.trim()) {
     window.location.href = "login.html";
+    alert("WELCOME!");
  }
      
  }
