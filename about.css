@@ -147,8 +147,12 @@ input {
 }
 
 #footerimg {
-background-color: honeydew;
-height: 280px;
+background-color:#e71010;
+opacity: 0.8;
+color: #fff;
+height: 150px;
+display: flex;
+justify-content: space-around;
 
 
 
@@ -156,15 +160,15 @@ height: 280px;
 #logo {
     display: flex;
     align-items: center;
-    padding-top: 12%;
-    justify-content: space-evenly;
+    justify-content:flex-start;
     font-family: 'Zilla Slab', serif;
+    padding-top: 5%;
 
 }
 h5 {
     font-family: 'Zilla Slab', serif;
 }
-.btn{
+button{
     display: flex;
     padding: 20px;
     background-color: honeydew;
@@ -175,17 +179,30 @@ h5 {
     align-items: center;
     justify-content: center;
     padding-left: 30px;
-    font-size: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+    cursor: pointer;
+    
+}
+button:active {
+    transform: scale(0.90);
 }
 textarea {
     border-radius: 10px;
 }
+#location {
+    padding-top: 2% ;
+    
+}
 
 
 
 
-/*
-* {
+
+
+
+/* {
     border: 1px dashed lime;
 }
 /* end */
