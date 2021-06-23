@@ -41,8 +41,9 @@ h2 {
 }
 #team {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     font-family: 'Zilla Slab', serif;
+    
 
 }
 #terryimg  img {
@@ -91,7 +92,6 @@ border-radius: 70%;
 /* new styling */
 /* terry div */
 #terry {
-    
     text-align: center;
     justify-content: center;
     padding: 10px;
@@ -104,6 +104,8 @@ border-radius: 70%;
 #terry>div{
     
     border-radius: 4px;
+    
+
 }
 #terryimg{
     background-color:honeydew;
@@ -125,8 +127,9 @@ border-radius: 70%;
 #footer1 {
     background-color: #e31c25;
     height: 300px;
-    margin-top: 40px;
+    margin-top:40px;
     color: white;
+    margin: auto;
 
 }
 #form {
@@ -195,7 +198,29 @@ textarea {
     padding-top: 2% ;
     
 }
+#copyright {
+    font-size: xx-large;
+    color: white;
+    font-weight: bolder;
+    padding-top: 05%;
+    
+}
+* {
+    box-sizing: border-box;
+    
+}
+#footer{
+    /* margin-top: -300px; */
+}
+ 
 
+/*
+@media only screen  and (min-width:480px){
+div {
+      width: 200px;
+      padding: 0px;
+  }  
+}
 
 
 
