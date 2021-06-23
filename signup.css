@@ -2,6 +2,7 @@
 body{
     background-image: url("./Assets/pork\ live.jpg") ;
     font-family: 'Zilla Slab', serif;
+    background-size: cover;
    
 }
 
@@ -13,6 +14,7 @@ body{
     overflow: hidden;
     margin-left: 600px;
     font-weight: bold;
+    margin-top: 30px;
 }
 
 .form-control{
@@ -63,22 +65,16 @@ button{
     height: 120px;
 }
 
-#mine div{
-    width: 50px;
-    height: 5px;
-    background-color:white;
-    display: block;
-    margin: 10px 0;
-}
-#mine{
-    margin-top: 28px;
-    padding: 5px;
-}
+
 .meat{
     display: flex;
     font-weight: bold;
     font-size: x-large;
     color: white;
+    background-color: red;
+    width: 450px;
+    margin-left: 560px;
+    
     
 }
 

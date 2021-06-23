@@ -3,10 +3,10 @@
     width: 350px;
     height: 500px;
     border-radius: 5px;
-    margin-top: 0px;
-    margin-left: 600px;
+    margin-top: 40px;
     overflow: hidden;
     font-weight: bold;
+    margin-left: 600px;
 }
 #header h2{
     text-align: center;
@@ -50,11 +50,13 @@ button{
     border: 1px;
     color: white;
     margin-left: 18px;
+    cursor: pointer;
     
 
 }
 
 button:active{
+
     transform: scale(0.90);
 }
 
@@ -70,22 +72,16 @@ small{
     width: 300px;
     height: 120px;
 }
-#mine div{
-    width: 50px;
-    height: 5px;
-    background-color:white;
-    margin: 10px 0;
-    display: block;
-}
-#mine{
-    margin-top: 28px;
-    padding: 5px;
-}
+
+
 .meat{
     display: flex;
+    width: 389px;
     font-weight: bold;
     font-size: x-large;
     color: white;
+    background-color: red;
+    margin-left: 580px;
     
 }
 footer a{
