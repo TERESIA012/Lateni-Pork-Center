@@ -11,8 +11,28 @@ header {
 	justify-content: space-between;
 	height: 30em;
 }
-.Menu {
+.Menu{
 	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin-left:600px ;
+	font-size: 2em;
+}
+#menu {
+        width: 250px;
+        height: 50px;
+}
+
+/*700px width for example*/
+#menu option {
+	font-size: 2em;
+        width: 500px; /*default would be inherit*/
+        height: 60px; /*just changed for example*/ 
+}
+#Date button {
+	font-size: 1em;
+        width: 250px; /*default would be inherit*/
+        height: 50px;
 }
 header p {
         height: 1px;
@@ -84,13 +104,13 @@ header img {
 	justify-content: space-between;
 }
 .landing .video video{
-	margin-left: 10em;
+	margin-left: 13em;
 	margin-top: 0px;
 }
 .landing .video .img {
         display: flex;
-	margin-top: 6.5em;
-	margin-right: 10em;
+	margin-top: 15em;
+	margin-right: 30em;
 }
 .landing .lpc {
 	display: flex;
@@ -195,11 +215,6 @@ footer .social {
 footer .handles img {
 	height: 3em;
 	width: 3em;
-}
-.copyright {
-	text-align: center;
-	color: aliceblue;
-	background-color: #e71010;
 }
 .copyright {
 	text-align: center;
