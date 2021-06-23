@@ -182,8 +182,8 @@ footer .social {
 	color: rgb(19, 19, 189);
 }
 .social #contacts {
-	color: rgba(5, 0, 0, 0.815);
-	font-weight: 1000;
+	color: rgb(243, 41, 41);
+        text-shadow: 2px 2px 4px #030000;
 }
 .handles {
 	text-align: center;
@@ -191,26 +191,15 @@ footer .social {
 	display: inline;
 	justify-content: space-between;
 }
-footer .handles img {
-	height: 3em;
-	width: 3em;
-}footer {
-	display: flex;
-	justify-content: space-evenly;
-}
-footer .social {
-	text-align: center;
-        display: inline;
-}
-.social #contacts {
-	color: rgba(5, 0, 0, 0.815);
-	font-weight: 1000;
-}
 .handles {
 	text-align: center;
 	height: 25em;
 	display: inline;
 	justify-content: space-between;
+}
+.handles .media {
+	color: rgb(243, 41, 41);
+        text-shadow: 2px 2px 4px #030000;
 }
 footer .handles img {
 	height: 3em;
