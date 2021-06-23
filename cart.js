@@ -2,49 +2,49 @@ let carts= document.querySelectorAll('.add-cart');
 let products = [
     {
         name: 'Minced Pork',
-        tag: 'mincedpork',
+        tag: 'Minced Pork',
         price: 200,
         incart:0
     },
     {
         name: 'Pigs Foot',
-        tag: 'pigsfoot',
+        tag: 'Pigs Foot',
         price: 700,
         incart:0
     },
     {
         name: 'Pork Sausage',
-        tag: 'porksausage',
+        tag: 'Pork Sausage',
         price: '540',
         incart:0
     },
     {
         name: 'Porkloin',
-        tag: 'porkloin',
+        tag: 'Porkloin',
         price: 460,
         incart:0
     },
     {
         name: 'Hamhock',
-        tag: 'hamhock',
+        tag: 'Hamhock',
         price: 350,
         incart:0
     },
     {
         name: 'Boston Butt',
-        tag: 'bostonbutt',
+        tag: 'Boston Butt',
         price: 600,
         incart:0
     },
     {
         name: 'Fresh Ham',
-        tag: 'freshham',
+        tag: 'Fresh Ham',
         price: 300,
         incart:0
     },
     {
         name: 'Bacon',
-        tag: 'bacon',
+        tag: 'Bacon',
         price: 250,
         incart:0
     },
@@ -125,5 +125,53 @@ function totalCost(product) {
     }  
 
 }
+function displayCart(){
+    let cartItems = localStorage.getItem("productsInCart");
+    cartItems =JSON.parse(cartItems );
+    let productContainer = document.querySelector(".product-container");
+    let cartCost = localStorage.getItem('totalCost');
+    console.log(cartItems)
+    if(cartItems && productContainer ){
+        productContainer.innerHTML = '';
+        Object.values(cartItems).map(item =>{
+            productContainer.innerHTML +=`
+            <div class="product">
+                <i class="far fa-times-circle"></i>
+                <img src="./Assets/${item.tag}.jpeg">
+                <span>${item.name}</span>
+                </div>
+                <div class="price">$${item.price},00<div>
+                <div class="quantity">
+                
+                    <span>${item.incart}<span>
+                <div>
+                <div class="total">
+                $${item.incart * item.price},00
+                </div>
+                `;
+                
+            
+
+
+
+
+        });
+        productContainer.innerHTML +=`
+            <div class= "basketTotalContainer">
+                <h4 classs="basketTotalTitle">
+                    Basket Total
+                </h4>
+                <h4 class="basketTotal">
+                    $${cartCost},00
+                </h4>
+
+        `; 
+
+    }
+
+
+    
+}
    
 onLoadCartNumbers()
+displayCart()
