@@ -10,11 +10,20 @@ function validateInput(){
   
   }else{
     onSuccess(userName);
-    alert("Login successful") 
+  
   }
+  //password check
+if(pwd.value.trim()===""){
+  onError(pwd, "password cannot be empty");
 
-if(userName.value.trim() != '' ) {
+}else{
+   
+ onSuccess(pwd); 
+}
+
+if(userName.value.trim() && pwd.value.trim() != '' ) {
   window.location.href = "/";
+  alert("Login successful") 
 }
 }
    

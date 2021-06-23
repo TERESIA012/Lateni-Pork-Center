@@ -48,7 +48,7 @@ if(pwd.value.trim()===""){
  }
  
 //condition in order to redirect
-if(userName,email,pwd,conPwd.value.trim() != '' ) {
+if(userName,email,pwd,conPwd.value.trim() != ''  &&  pwd.value.trim()===conPwd.value.trim()) {
     window.location.href = "login.html";
  }
      
