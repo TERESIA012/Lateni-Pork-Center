@@ -1,0 +1,36 @@
+body {
+	background-color: red;
+}
+header {
+	background-image: url(./Assets/Pork\ Hanging.webp);
+	display: flex;
+	color: rgb(238, 23, 23);
+	border: 1em double;
+	border-radius: 2em;
+	border-color: aliceblue;
+	justify-content: space-between;
+}
+.Menu {
+	display: flex;
+}
+header p {
+        height: 1px;
+	margin-right: 3em;
+}
+header h1 {
+	display: flex;
+	margin-right: 3em;
+}
+header h3 {
+	color: skyblue;
+	margin: 4em;
+	font-size: x-large;
+}
+header img {
+	height: 9em;
+}
+.landing {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+}
