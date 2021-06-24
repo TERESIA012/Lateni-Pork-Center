@@ -36,6 +36,7 @@ nickodemus.otsieno@student.moringaschool.com
 nick.odongi@student.moringaschool.com
 teresia.wairimu@student.moringaschool.com
 langat.kipkirui@student.moringaschool.com
+# &copy;2021
 
 
 
