@@ -1,7 +1,7 @@
 # THE PROJECT NAME IS;
 ## LATENI PORK CENTRE.
 # THE AUTHORS OF THE PROJECT ARE;
-* Nickodemus Othino
+* Nickodemus Othieno
 * Tito Langat
 * Nick Otieno
 * Teresia Wairimu
