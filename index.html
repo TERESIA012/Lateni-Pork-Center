@@ -10,45 +10,161 @@
 <body>
 	<header>
 		<div class="Menu">
-	                <div class="p">
-			        <p>____</p>
-	                        <p>____</p>
-		                <p>____</p>
-			</div>
-			<div id="Menu">
-			        <h1>MENU</h1>
+	                
+			<div id="Menu"> 
+			        <a href="#">
+					<form action="/action_page.html">
+                                        <select id="menu" name="menu">
+						<option value="menu">MENU</option>
+                                                <option value="about">About</option>
+                                                <option value="Shop">Shop</option>
+                                                <option value="status">Status</option>
+                                                <option value="Contacts">Contacts</option>
+                                        </select>
+                                        </form>
+				</a>
 			</div>
                         <div class="logo">
 				<img src="./Assets/LPC.jpg">
 			</div>
-		</div>
-		<div class="login">
-			<h3>LOGIN</h3>
-			<h3>SIGN UP</h3>
-		</div>
-		<div class="status">
-			<h2>STATUS</h2>
-		</div>
-		
+			<div id="Date">
+				<a href="#">
+					<button type="button"
+                                        onclick="document.getElementById('Date').innerHTML = Date()">
+                                        Date and Time.</button>
+
+                                         <h2 id="Date"></h2>
+				</a>
+			</div>
+		</div>        
+		<!-- <div class="status">
+			<a href="#">
+			        <h3>HOME</h3>
+			        <h3>SHOP</h3>
+			        <h3>ABOUT US</h3>
+                                <h3>LOGIN</h3>
+			        <h3>STATUS</h3>
+			</a>
+		</div> -->
 		
 	</header>
+
+	<div class="about">
+		<div class="pigs">
+			<h2>The Pigs</h2>
+			<h4>Main Breeds In Kenya</h4>
+			<ul>
+				<li>Large White</li>
+				<li>Landrace ~ For cross-breeding</li>
+				<li>Hampshire ~ Very lean meat</li>
+				<li>Duroc ~ The sweetest hogs in the world</li>
+				<a href="https://www.livestockkenya.com/index.php/blog/pigs/138-main-breeds-of-pigs-in-kenya">READ MORE</a>
+			</ul>
+		</div>
+		<div class="pork">
+                        <h2>The Pork</h2>
+			<ul>
+				<li>Pork Butt (Boston Butt)</li>
+				<li>Pork Shoulder (Picnic Shoulder)</li>
+				<li>Pork Loin</li>
+				<li>Spare Ribs</li>
+				<a href="#">MAKE ORDER NOW!!!</a>
+			</ul>
+		</div>
+	</div>
+
 	<div class="landing">
 		<div class="video">
-			<video width="520" height="350" controls autoplay>
-                  	<source src="./Assets/Front video.mp4" type="video/mp4">
-			    Your browser does not support the video tag.
-			  </video>
-		</div>
+			
+			        <video width="700" height="600" controls autoplay>
+                  	        <source src="./Assets/Front video.mp4" type="video/mp4">
+			           Your browser does not support the video tag.
+			        </video>
 		
-		<div class="video">
-			<video width="520" height="350" controls autoplay>
-			<source src="./Assets/Back video.mp4" type="video/mp4">
-			  Your browser does not support the video tag.
-			</video>
+			<div class="img">
+			        <img src="./Assets/lateni.jpg">
+			</div>
 		</div>
-
-                
-
+		<div class="lpc">
+			<div class="why">
+			<h2>Why Pork ?</h2>
+			<p>~Are you wondering if eating pork would be a healthy choice? Yes,the benefits <br>of eating pork are surplus.Pork falls in the category of red meat</p>
+			<ul>
+				<li>Creatine for Mass Building</li>
+				<li>Pork Contains Taurine->For a healthy heart and dietary function</li>
+				<li>Eating Pork Prevents Binge Eating/overeating</li>
+			</ul>
+			</div>
+			<div class="butcher">
+				<img src="./Assets/Smiling Butcher2.jpg" height="520" width="500">
+			</div>
+		</div>
+	</div>
+	<div class="customers">
+		<div id="feedback">
+			<h3>Customers' Feedback</h3>
+		</div>
+	</div>
+	<div class="comments">
+		
+		<div class="comment1">
+			<p>“You always work so passionately to make sure our customers get the best experience <br>and insight and they really are reaping the rewards from your efforts! I love <br>working collaboratively with you, you're always so authentic and enthusiastic. So <br>glad you've had some great feedback from customers too as it's so deserved.”</p>
+			<h3>Gregg Fuchs</h3>
+		</div>
+		<div class="comment2">
+			<p>“You’ve done an incredible job taking on the responsibility and stepping up to the <br>new pig Breeds. Leading and shaping a meat firm is a real challenge but you’ve taken <br>everything in your stride. I’m really looking forward to continuing to get more<br>from you and see how much further you succeed.”</p>
+                        <h3>Annita Njeri</h3>
+		</div>
+                <div class="comment3">
+			<p>“The amount of good meat products you promote and the resources you share with everyone is <br>nothing short of inspirational. Your commitment to helping us all consumers <br>acquire the rare pork meat !”</p>
+			<h3>Joash Watillah</h3>
+		</div>
 	</div>
 </body>
+	<footer>
+		<div class="social">
+                        <div id="contacts">
+			        <h2>Contact Us :</h2>
+                        </div>
+			<div class="email">
+                                <h4>Nicodemus Othieno</h4>
+				<a href="https://www.google.com/gmail/about/">nickodemus.otsieno@student.moringaschool.com</a>
+
+				<h4>Teresia Wairimu</h4>
+                                <a href="https://www.google.com/gmail/about/">teresia.wairimu@student.moringaschool.com</a>
+
+				<h4>Nick Otieno</h4>
+                                <a href="https://www.google.com/gmail/about/">nick.odongi@student.moringaschool.com</a>
+
+				<h4>Tito Langat</h4>
+                                <a href="https://www.google.com/gmail/about/">langat.kipkirui@student.moringaschool.com</a>
+			</div>
+		</div>
+		<div class="handles">
+			<div class="media">
+			        <h2>Follow Us On Social Media ;</h2>
+			</div>
+			<div class="facebook">
+				<a href="https://www.facebook.com/">
+				        <img src="./Assets/facebook logo.png">
+				        <h3>FACEBOOK</h3>
+				</a>
+			
+				<a href="https://twitter.com/">
+                                        <img src="./Assets/twitter logo.png">
+				        <h3>TWITTER</h3>
+				</a>
+			
+				<a href="https://www.youtube.com/">
+				        <img src="./Assets/Youtube-Logo.png">
+				        <h3>YOUTUBE</h3>
+				</a>
+			</div>
+		</div>
+		
+	</footer>
+        <div class="copyright">
+			<h4>&copy;Copyright: 2021: All Rights Reserved!</h4>
+		</div>
+	
 </html>
