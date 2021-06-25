@@ -12,40 +12,35 @@
 		<div class="Menu">
 	                
 			<div id="Menu"> 
-			        <a href="#">
-					<form action="/action_page.html">
-                                        <select id="menu" name="menu">
-						<option value="menu">MENU</option>
-                                                <option value="about">About</option>
-                                                <option value="Shop">Shop</option>
-                                                <option value="status">Status</option>
-                                                <option value="Contacts">Contacts</option>
-                                        </select>
-                                        </form>
-				</a>
+			        
+	                        <a href="#"><option value="menu">MENU</option></a>
+					<div class="status">
+			                                
+			                        <a href="#">HOME</a>
+			                        <a href="cart.html">SHOP</a>
+			                        <a href="about.html">ABOUT US</a>
+                                                <a href="login.html">LOGIN</a>
+			                        <a href="signup.html">SIGN UP</a>
+		                        </div>
+                                              <!--  <a href="about.html"><option value="about">About</option></a>
+                                                <a href="cart.html"><option value="Shop">Order</option></a>
+                                                <a href="login.html"><option value="login">Login</option></a>
+                                                <a href="signup.html"><option value="Contacts">Sign Up</option></a> -->
 			</div>
-                        <div class="logo">
-				<img src="./Assets/LPC.jpg">
-			</div>
-			<div id="Date">
-				<a href="#">
-					<button type="button"
-                                        onclick="document.getElementById('Date').innerHTML = Date()">
-                                        Date and Time.</button>
-
-                                         <h2 id="Date"></h2>
-				</a>
+			<div class="Date">
+                                <div class="logo">
+				        <img src="./Assets/LPC.jpg">
+			        </div>
+			        <div id="Date">
+				        <a href="#">
+					        <button type="button"
+                                                onclick="document.getElementById('Date').innerHTML = Date()">
+                                                Date and Time.</button>
+				        </a>
+			        </div>
 			</div>
 		</div>        
-		<!-- <div class="status">
-			<a href="#">
-			        <h3>HOME</h3>
-			        <h3>SHOP</h3>
-			        <h3>ABOUT US</h3>
-                                <h3>LOGIN</h3>
-			        <h3>STATUS</h3>
-			</a>
-		</div> -->
+		
 		
 	</header>
 
@@ -68,7 +63,7 @@
 				<li>Pork Shoulder (Picnic Shoulder)</li>
 				<li>Pork Loin</li>
 				<li>Spare Ribs</li>
-				<a href="#">MAKE ORDER NOW!!!</a>
+				<a href="cart.html">MAKE ORDER NOW!!!</a>
 			</ul>
 		</div>
 	</div>

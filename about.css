@@ -1,43 +1,52 @@
-h1 {
+header .Menu{
+    justify-content: space-between;
+    display: flex;
+}
+header h1 {
     background-color:#e71010;
     color: white;
     font-size: xx-large;
     font-style: oblique;
     text-align: center;
 }
-#img1 {
-    text-align: center;
+.Menu option {
+    color: #e31c25;
+    margin-left: 3em;
+    font-weight: 600;
+    font-size: 2em;
+    height: 3em;
 }
-h2 {
-    font-size: xx-large;
-    color: solid black;
+.Menu .status a {
+    margin-left: 3em;
+    color: #2810b1;
+    display: grid;
+    height: 2em;
 }
+.Menu #img1 {
+    margin-right: 45em;
+    color: #e31c25;
+    font-size: 1em;
+}
+.Menu #img1 h2 {
+    font-size: 2em;
+    font-weight: 700;
+}
+/* ============================================ */
 #hm {
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-between; 
 }
 #vv {
-    display: flex;
-    
-    
-    
-    
+    display: flex;   
 }
 #values {
     margin-left: 280px;
-    
-    
-
 }
-#txts {
-    
+#txts {   
     color:white;
     font-family: 'Zilla Slab', serif;
     background-color: #e71010;
     padding: 60px;
-    
-
 }
 #team {
     display: flex;

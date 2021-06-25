@@ -11,21 +11,26 @@ header {
 	justify-content: space-between;
 	height: 30em;
 }
-.Menu{
+.Menu .Date{
 	display: flex;
 	justify-content: center;
-	text-align: center;
-	margin-left:600px ;
+	margin-left:600px;
 	font-size: 2em;
 }
-#menu {
-        width: 250px;
-        height: 50px;
+.Menu #Menu a {
+	color: #e71010;
+	display: grid;
+	background-color: #fff;
+	width: 15em;
+        height: 5em;
+	font-weight: 600;
 }
 
 /*700px width for example*/
-#menu option {
+#Menu option {
+	color: #e71010;
 	font-size: 2em;
+	margin-left: 2em;
         width: 500px; /*default would be inherit*/
         height: 60px; /*just changed for example*/ 
 }
