@@ -9,18 +9,24 @@ header h1 {
     font-style: oblique;
     text-align: center;
 }
+#menu {
+    background-color: honeydew;
+    width: 15em;
+}
 .Menu option {
     color: #e31c25;
-    margin-left: 3em;
     font-weight: 600;
+    margin-left: 3em;
     font-size: 2em;
     height: 3em;
 }
 .Menu .status a {
+    color: #e31c25;
     margin-left: 3em;
-    color: #2810b1;
+    /* color: #2810b1; */
+    font-weight: 800;
     display: grid;
-    height: 2em;
+    height: 4.5em;
 }
 .Menu #img1 {
     margin-right: 45em;
@@ -31,7 +37,9 @@ header h1 {
     font-size: 2em;
     font-weight: 700;
 }
+
 /* ============================================ */
+
 #hm {
     display: flex;
     justify-content: space-between; 
@@ -42,24 +50,36 @@ header h1 {
 #values {
     margin-left: 280px;
 }
-#txts {   
-    color:white;
+#container {
+    color: white;
     font-family: 'Zilla Slab', serif;
     background-color: #e71010;
+    font-weight: 600;
     padding: 60px;
+}
+#hm p strong {
+    font-size: 20px;
+}
+#container h3 {
+    font-size: 2em;
+}
+#container #hm {
+    margin-left: 10em;
+    margin-right: 10em;
+}
+#container #vv {
+    margin-bottom: 0px;
+    margin-left: 14em;
+    margin-right: 10em;
 }
 #team {
     display: flex;
     justify-content: space-evenly;
     font-family: 'Zilla Slab', serif;
-    
-
 }
 #terryimg  img {
-padding-top: 10%;
-border-radius: 70%;
-
-
+    padding-top: 10%;
+    border-radius: 70%;
 }
 /*#nickimg img {
     padding-top: 10%;
@@ -237,7 +257,11 @@ h6 {
     font-size: 1rem;
     font-family: 'Zilla Slab', serif;
 }
+
+/*================================================================*/
 #copyright {
+    color: #fff;
+    background-color: #e31c25;
     text-align: center;
     font-weight: bold;
 }
